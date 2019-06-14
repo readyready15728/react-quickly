@@ -9,6 +9,6 @@
     "babel-preset-react": "^6.24.1"
   },
   "scripts": {
-    "build": "./node_modules/.bin/babel clock/jsx -d clock/js"
+    "build": "./node_modules/.bin/babel jsx -d js"
   }
 }
