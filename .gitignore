@@ -1,2 +1,4 @@
 .backup
 node_modules
+clock/js/clock.js
+clock/js/script.js
