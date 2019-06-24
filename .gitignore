@@ -2,3 +2,6 @@
 node_modules
 clock/js/clock.js
 clock/js/script.js
+logger/js/content.js
+logger/js/logger.js
+logger/js/script.js
