@@ -22,6 +22,6 @@ class Content extends React.Component {
       return <div/>;
     }
 
-    return <Logger time={currentTime}/>;
+    return <Logger time={this.state.currentTime}/>;
   }
 }
