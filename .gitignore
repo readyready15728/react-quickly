@@ -7,3 +7,5 @@ logger/js/logger.js
 logger/js/script.js
 users/js/users.js
 users/js/script.js
+note/js/note.js
+note/js/script.js
