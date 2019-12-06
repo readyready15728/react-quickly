@@ -8,15 +8,16 @@ ReactDOM.render(
   <div>
     <HelloWorld
       id="ember"
-      frameworkName="Ember.js"
+      frameworkn`ame="Ember.js"
       title="A framework for creating ambitious web applications"/>
     <HelloWorld
       id="backbone"
-      frameworkName="Backbone.js"
+      frameworkname="Backbone.js"
       title="Backbone.js gives structure to web applications"/>
     <HelloWorld
       id="angular"
-      frameworkName="Superheroic JavaScript MVW framework"/>
+      frameworkname="Angular.js"
+      title="Superheroic JavaScript MVW framework"/>
   </div>,
   document.getElementById('content')
 );
