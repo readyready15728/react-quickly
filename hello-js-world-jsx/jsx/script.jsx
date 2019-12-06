@@ -4,7 +4,7 @@ class HelloWorld extends React.Component {
   }
 }
 
-ReactDOM.render() (
+ReactDOM.render(
   <div>
     <HelloWorld
       id="ember"
