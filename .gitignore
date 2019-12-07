@@ -1,5 +1,6 @@
 .backup
 node_modules
+hello-js-world-jsx/js/script.js
 clock/js/clock.js
 clock/js/script.js
 logger/js/content.js
