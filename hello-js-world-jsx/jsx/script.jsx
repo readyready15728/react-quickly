@@ -8,7 +8,7 @@ ReactDOM.render(
   <div>
     <HelloWorld
       id="ember"
-      frameworkn`ame="Ember.js"
+      frameworkname="Ember.js"
       title="A framework for creating ambitious web applications"/>
     <HelloWorld
       id="backbone"
