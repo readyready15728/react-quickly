@@ -10,7 +10,7 @@
         <div>Note was removed after {secondsLeft} seconds.</div>,
         document.getElementById('content')
       );
-      clearInterval(interval)
+      clearInterval(interval);
     } else {
       ReactDOM.render(
         <Note secondsLeft={secondsLeft}/>,
