@@ -77,26 +77,26 @@ class Content extends React.Component {
         <input type="password" defaultValue="123456" onChange={this.handleChange} onInput={this.handleInput}/>
         <hr/>
         <h2>input: radio</h2>
-        <label for="angular">Angular</label>
+        <label htmlFor="angular">Angular</label>
         <input id="angular" type="radio" name="radioGroup" value="angular" checked={this.state.radioGroup['angular']} onChange={this.handleRadio}/>
         <br/>
-        <label for="reactRadio">React</label>
+        <label htmlFor="reactRadio">React</label>
         <input id="reactRadio" type="radio" name="radioGroup" value="react" checked={this.state.radioGroup['react']} onChange={this.handleRadio}/>
         <br/>
-        <label for="polymer">Polymer</label>
+        <label htmlFor="polymer">Polymer</label>
         <input id="polymer" type="radio" name="radioGroup" value="polymer" checked={this.state.radioGroup['polymer']} onChange={this.handleRadio}/>
         <hr/>
         <h2>input: checkbox</h2>
-        <label for="node">Node</label>
+        <label htmlFor="node">Node</label>
         <input id="node" type="checkbox" name="checkboxGroup" value="node" checked={this.state.checkboxGroup['node']} onChange={this.handleCheckbox}/>
         <br/>
-        <label for="reactCheckbox">React</label>
+        <label htmlFor="reactCheckbox">React</label>
         <input id="reactCheckbox" type="checkbox" name="checkboxGroup" value="react" checked={this.state.checkboxGroup['react']} onChange={this.handleCheckbox}/>
         <br/>
-        <label for="express">Express</label>
+        <label htmlFor="express">Express</label>
         <input id="express" type="checkbox" name="checkboxGroup" value="express" checked={this.state.checkboxGroup['express']} onChange={this.handleCheckbox}/>
         <br/>
-        <label for="mongodb">MongoDB</label>
+        <label htmlFor="mongodb">MongoDB</label>
         <input id="mongodb" type="checkbox" name="checkboxGroup" value="mongodb" checked={this.state.checkboxGroup['mongodb']} onChange={this.handleCheckbox}/> 
         <hr/>
         <textarea name="description" defaultValue={this.state.description} onChange={this.handleChange}/>
