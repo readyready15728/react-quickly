@@ -57,9 +57,9 @@ class Content extends React.Component {
   
   handleSubmit(event) {
     console.log(event.target.value, event.target.checked);
-    fetch(this.props['data-url'], {method: 'POST', JSON.stringify(this.state)})
+    fetch(this.props['data-url'], {method: 'POST', body: JSON.stringify(this.state)})
       .then((response) => {return response.json();})
-      .then((data) => {console.log('Submitted:' data);});
+      .then((data) => {console.log('Submitted:', data);});
   }
   
   handleSelectChange(event) {
