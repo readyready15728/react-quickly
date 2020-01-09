@@ -6,7 +6,7 @@ class Content extends React.Component {
   }
   
   handleChange(event) {
-    console.log('Typed': event.target.value);
+    console.log('Typed: ', event.target.value);
     this.setState({accountNumber: event.target.value.replace(/[^0-9]/ig, '')});
   }
   
