@@ -20,3 +20,6 @@ elements/js/content.js
 elements/js/script.js
 account/js/content.js
 account/js/script.js
+default-props/js/button.js
+default-props/js/content.js
+default-props/js/script.js
