@@ -23,3 +23,6 @@ account/js/script.js
 default-props/js/button.js
 default-props/js/content.js
 default-props/js/script.js
+prop-types/js/button.js
+prop-types/js/content.js
+prop-types/js/script.js
